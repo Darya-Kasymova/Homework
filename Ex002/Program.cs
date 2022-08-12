@@ -1,0 +1,12 @@
+﻿Console.WriteLine("Введите три числа ");
+Console.Write("Введите первое число:");
+int numberA = int.Parse(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int numberB = int.Parse(Console.ReadLine());
+Console.Write("Введите третье число: ");
+int numberС = int.Parse(Console.ReadLine());
+int maxNumber = 0;
+if (numberA > maxNumber) maxNumber = numberA;
+if (numberB > maxNumber) maxNumber = numberB;
+if (numberС > maxNumber) maxNumber = numberС;
+Console.WriteLine("Максимальное значение имеет число " + maxNumber);
